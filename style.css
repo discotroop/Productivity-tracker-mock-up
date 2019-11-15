@@ -1,0 +1,41 @@
+div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+/* swap for grid layout? */
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: blue;
+}
+
+.menuContainer {
+    display: flex;
+}
+
+.menuItem {
+    margin-left: 5px;
+}
+
+.newNote {
+    margin-top: 2%;
+    height: 20vh;
+}
+
+.noteContainer {
+    height: 100%;
+}
+
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: salmon;
+}
